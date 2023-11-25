@@ -32,19 +32,10 @@ body{
     font-size: 35px;
     margin-block: 10px;
 }
-.passbox{
-    background-color: aliceblue;
-    border: none ;
-    outline: none;
-    padding: 10px;
-    width: 300px;
-    border-radius:8px;
-    font-size: 20px;
-}
 .inputBox{
     position: relative;
-}
 
+}
 .inputBox span{
     position: absolute;
     top: 16px;
@@ -53,6 +44,16 @@ body{
     font-size: 28px;
     cursor: pointer;
     z-index: 2;
+}
+.passBox{
+    background-color: rgb(247, 247, 247);
+    border: none ;
+    outline: none;
+    padding: 10px;
+    width: 380px;
+    border-radius:8px;
+    font-size: 20px;
+    margin-block: 10px;
 }
 .option{
     display:flex;
@@ -66,13 +67,23 @@ body{
     height: 20px;
 }
 .gbtn{
+    outline: none;
+    border: none;
     background-color: aqua;
     font-size: 18px;
     margin-block: 8px;
     font-weight: 700;
     cursor: pointer;
     border-radius: 4px;
+    padding: 10px 10px;
 }
 .gbtn:hover{
     background-color: #0066ff;
+}
+.copyIcon{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
