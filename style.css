@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Lato&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left bottom, rgb(61, 12, 16),rgb(15, 63, 63));
+    color: rgb(241, 241, 241);
+    font-weight: 600;
+}
+
+.container{
+    border: 1px solid rgb(10, 8, 4);
+    border-radius: 20px;
+    border-color: aqua;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 4px 4px 4px rgb(13, 194, 194);
+}
+
+.container h1{
+    font-size: 35px;
+    margin-block: 10px;
+}
+.passbox{
+    background-color: aliceblue;
+    border: none ;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius:8px;
+    font-size: 20px;
+}
+.inputBox{
+    position: relative;
+}
+
+.inputBox span{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: #000;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 2;
+}
+.option{
+    display:flex;
+    margin-block:8px;
+}
+.option p,.option label{
+    flex-basis: 100%;
+}
+.option input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.gbtn{
+    background-color: aqua;
+    font-size: 18px;
+    margin-block: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.gbtn:hover{
+    background-color: #0066ff;
+}
