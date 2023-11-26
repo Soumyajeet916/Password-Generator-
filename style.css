@@ -78,7 +78,9 @@ body{
     padding: 10px 10px;
 }
 .gbtn:hover{
-    background-color: #0066ff;
+    background: #00eeff;
+    box-shadow: 0 0 5px #00eeff,0 0 25px #00eeff,0 0 50px #00eeff, 0 0 200px #00eeff;
+
 }
 .copyIcon{
   font-variation-settings:
